@@ -207,12 +207,14 @@ fixtures = [
         "dt" : "Custom Field",
         "filters":[["name", "in", ['ToDo-test_field']]]
     },
+    
     {
         "dt" : "Property Setter",
         "filters":[
             ["name", "in", ["ToDo-description-depends_on", "ToDo-description-mandatory_depends_on"]]
         ]
     },
+    
     {
         "dt" : "Notification",
         "filters":[
