@@ -212,5 +212,11 @@ fixtures = [
         "filters":[
             ["name", "in", ["ToDo-description-depends_on", "ToDo-description-mandatory_depends_on"]]
         ]
+    },
+    {
+        "dt" : "Notification",
+        "filters":[
+            ["name", "in", ["New User Notification"]]
+        ]
     }
 ]
