@@ -218,7 +218,8 @@ fixtures = [
     {
         "dt" : "Notification",
         "filters":[
-            ["name", "in", ["New User Notification"]]
+            ["name", "in", ["New User Notification", "Email User Created"]]
         ]
-    }
+    },
+    
 ]

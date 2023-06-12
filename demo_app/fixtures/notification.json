@@ -38,5 +38,45 @@
   "slack_webhook_url": null,
   "subject": "Account of {{ doc.full_name }} created successfully",
   "value_changed": null
+ },
+ {
+  "attach_print": 0,
+  "channel": "Email",
+  "condition": null,
+  "date_changed": null,
+  "days_in_advance": 0,
+  "docstatus": 0,
+  "doctype": "Notification",
+  "document_type": "User",
+  "enabled": 1,
+  "event": "New",
+  "is_standard": 0,
+  "message": "<p> New User Created With ({{ doc.full_name }}) Account Name",
+  "method": null,
+  "modified": "2023-06-12 14:54:49.639783",
+  "module": null,
+  "name": "Email User Created",
+  "print_format": null,
+  "property_value": null,
+  "recipients": [
+   {
+    "bcc": null,
+    "cc": null,
+    "condition": null,
+    "parent": "Email User Created",
+    "parentfield": "recipients",
+    "parenttype": "Notification",
+    "receiver_by_document_field": null,
+    "receiver_by_role": "System Manager"
+   }
+  ],
+  "send_system_notification": 0,
+  "send_to_all_assignees": 0,
+  "sender": "Personal",
+  "sender_email": "rohit.g@promantia.com",
+  "set_property_after_alert": null,
+  "slack_webhook_url": null,
+  "subject": "New User Created - {{ doc.full_name }}",
+  "value_changed": null
  }
 ]
