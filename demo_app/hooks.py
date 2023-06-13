@@ -203,6 +203,7 @@ app_license = "MIT"
 
 
 fixtures = [
+    
     {
         "dt" : "Custom Field",
         "filters":[["name", "in", ['ToDo-test_field']]]
@@ -222,4 +223,11 @@ fixtures = [
         ]
     },
     
+    {
+        "dt" : "Workflow",
+        "filters":[
+            ["name", "in", ["User Approval"]]
+        ]
+    },
+        
 ]
