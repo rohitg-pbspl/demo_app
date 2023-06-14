@@ -1,6 +1,6 @@
-## Demo App
+## demo_app
 
-It is demo app. created for practice purpose
+created for training
 
 #### License
 

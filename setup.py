@@ -9,8 +9,8 @@ from demo_app import __version__ as version
 setup(
 	name="demo_app",
 	version=version,
-	description="It is demo app. created for practice purpose",
-	author="Rohit",
+	description="created for training",
+	author="rohit",
 	author_email="rohit@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,

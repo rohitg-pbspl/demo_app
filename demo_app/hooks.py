@@ -1,9 +1,9 @@
 from . import __version__ as app_version
 
 app_name = "demo_app"
-app_title = "Demo App"
-app_publisher = "Rohit"
-app_description = "It is demo app. created for practice purpose"
+app_title = "demo_app"
+app_publisher = "rohit"
+app_description = "created for training"
 app_email = "rohit@gmail.com"
 app_license = "MIT"
 
@@ -199,35 +199,3 @@ app_license = "MIT"
 # auth_hooks = [
 #	"demo_app.auth.validate"
 # ]
-
-
-
-fixtures = [
-    
-    {
-        "dt" : "Custom Field",
-        "filters":[["name", "in", ['ToDo-test_field']]]
-    },
-    
-    {
-        "dt" : "Property Setter",
-        "filters":[
-            ["name", "in", ["ToDo-description-depends_on", "ToDo-description-mandatory_depends_on"]]
-        ]
-    },
-    
-    {
-        "dt" : "Notification",
-        "filters":[
-            ["name", "in", ["New User Notification", "Email User Created"]]
-        ]
-    },
-    
-    {
-        "dt" : "Workflow",
-        "filters":[
-            ["name", "in", ["User Approval"]]
-        ]
-    },
-        
-]

@@ -4,5 +4,8 @@
 frappe.ui.form.on('Demo Doctype', {
 	// refresh: function(frm) {
 
+	// 	frappe.msgprint('This is from refresh')
+	// 	frappe.throw('this is an error')
+
 	// }
 });
